@@ -63,12 +63,12 @@ Resposta:
 
 [
 {
-"id": 1,
-"nome": "Computador Dell",
-"descricao": "PC para escritório",
-"patrimonio": "12345"
+"descricao": "Gerador Elétrico 220v - Modelo Novo",
+"valor": 1999.99,
+"tipoEquipamento": "Gerador",
+"marca": "VarioPower Pro"
 }
-]
+
 
 2️⃣ Obter equipamento por ID
 GET /equipamentos/{id}
@@ -85,10 +85,12 @@ POST /equipamentos
 Exemplo de corpo JSON:
 
 {
-"nome": "Impressora HP",
-"descricao": "Impressora para rede",
-"patrimonio": "67890"
+"descricao": "Gerador Elétrico 220v - Modelo Novo",
+"valor": 1999.99,
+"tipoEquipamento": "Gerador",
+"marca": "VarioPower Pro"
 }
+
 
 4️⃣ Atualizar um equipamento existente
 PUT /equipamentos/{id}
@@ -97,10 +99,12 @@ PUT /equipamentos/{id}
 Exemplo de corpo JSON:
 
 {
-"nome": "Impressora HP Laser",
-"descricao": "Impressora atualizada",
-"patrimonio": "67890"
+"descricao": "Gerador Elétrico 220v - Modelo Novo",
+"valor": 1999.99,
+"tipoEquipamento": "Gerador",
+"marca": "VarioPower Pro"
 }
+
 
 5️⃣ Deletar um equipamento
 DELETE /equipamentos/{id}
